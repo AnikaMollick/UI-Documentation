@@ -1,0 +1,59 @@
+.storybook-link{
+    width: 39px;
+height: 24px;
+font-family: 'IBM Plex Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+/*styles*/
+.storybook-link:hover{
+    color: #AEAEB2;
+}
+.storybook-link:active{
+    color: #7C7C80;
+}
+.storybook-link:focus{
+    width: 39px;
+height: 24px;
+color: #FFFFFF;
+border: 2px solid #CCE0FF;
+border-radius: 2px;
+}
+.storybook-link:disabled{
+    color: #545456;
+}
+
+/*Sizes*/
+.storybook-link--small{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.storybook-link--medium{
+    font-size: 14px;
+line-height: 20px;
+}
+.storybook-link--large{
+    font-size: 16px;
+line-height: 24px;
+}
+
+/*Icons*/
+.storybook-link--right::after{
+content: '';
+}
+.storybook-link--left::before{
+    content: '';
+}
