@@ -24,7 +24,7 @@ flex-grow: 0;
     color: #7C7C80;
 }
 .storybook-link:focus{
-    width: 39px;
+width: 39px;
 height: 24px;
 color: #FFFFFF;
 border: 2px solid #CCE0FF;

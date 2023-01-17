@@ -1,10 +1,11 @@
-import { createLink, createlink } from './Links';
+import { createLink} from './Links';
 
 export default {
   title: 'Component/Link',
 
   argTypes: {
     backgroundColor: { control: 'color' },
+    onClick: { action: 'onClick' },
     label: { control: 'text' },
     size: {
       control: { type: 'select' },
